@@ -30,5 +30,6 @@
 <p> <img src = "pics\pos predict.jpeg" height="700">    <img src = "pics\neg predict.jpeg" height="700"> </p><br>
 
 <p> <img src = "pics\tips.jpeg" height="700">    <img src = "pics\Btips.jpeg" height="700"> </p><br>
-  
+ 
+ 
  
