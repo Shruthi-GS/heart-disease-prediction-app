@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
     private ImageButton info1, info2, info3, info4, info5, info6, info7, info8, info9, info10, info11, info12, info13;
     private TextView result;
     private Button tips;
-    String url = "http://10.0.2.2:5000/predict";
+    String url = "http://192.168.205.163:5000/predict";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
