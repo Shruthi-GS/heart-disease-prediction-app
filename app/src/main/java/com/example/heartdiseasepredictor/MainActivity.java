@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
     private ImageButton info1, info2, info3, info4, info5, info6, info7, info8, info9, info10, info11, info12, info13;
     private TextView result;
     private Button tips;
-    String url = "http://192.168.205.163:5000/predict";
+    String url = "https://heart-disease-prediction-app-1-iufn.onrender.com/predict";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -236,18 +236,18 @@ public class MainActivity extends AppCompatActivity {
                     @SuppressLint("WrongConstant")
                     @Override
                     public void onResponse(String response) {
-
+                        Log.d("API Response", response);
                         try {
                             JSONObject jsonObject = new JSONObject(response);
-                            String data = jsonObject.getString("hearth_disease");
+                            String data = jsonObject.getString("heart_disease");
                             tips.setVisibility(1);
 
                             if (data.equals("0")) {
                                 result.setTextColor(Color.parseColor("#5bdeac"));
-                                result.setText("81.97% Chances of No Heart Disease");
+                                result.setText("98.53% Chances of No Heart Disease");
                             } else {
                                 result.setTextColor(Color.parseColor("#EC4C4C"));
-                                result.setText("81.97% Chances of Heart Disease");
+                                result.setText("98.53% Chances of Heart Disease");
                             }
                             age.setText("");
                             sex.setText("");
