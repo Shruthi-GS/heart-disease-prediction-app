@@ -244,10 +244,10 @@ public class MainActivity extends AppCompatActivity {
 
                             if (data.equals("0")) {
                                 result.setTextColor(Color.parseColor("#5bdeac"));
-                                result.setText("98.53% Chances of No Heart Disease");
+                                result.setText("No Chances of Heart Disease");
                             } else {
                                 result.setTextColor(Color.parseColor("#EC4C4C"));
-                                result.setText("98.53% Chances of Heart Disease");
+                                result.setText("High Chances of Heart Disease");
                             }
                             age.setText("");
                             sex.setText("");
