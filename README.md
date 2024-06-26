@@ -15,21 +15,20 @@
 
 
 # App Icon
-<img src = "app\src\main\res\drawable-v24\logo2.png" width="100">
+<img src = "pics\load.jpg" width="100">
 
 # App Interface
 
-<p> <img src = "pics\splash.jpeg" height="700"></p><br>
+<p> <img src = "pics\homepg.jpg" height="700"></p><br>
 
-<p> <img src = "pics\home.jpeg" height="700">    <img src = "pics\Bhome.jpeg" height="700"> </p><br>
+<p> <img src = "pics\dark.jpg" height="700">    <img src = "pics\tips.jpg" height="700"> </p><br>
 
-<p> <img src = "pics\main.jpeg" height="700">    <img src = "pics\Bmain.jpeg" height="700"> </p><br>
+<p> <img src = "pics\parameters.jpg" height="700">    <img src = "pics\info.jpg" height="700"> </p><br>
 
-<p> <img src = "pics\info.jpeg" height="700">    <img src = "pics\Binfo.jpeg" height="700"> </p><br>
+<p> <img src = "pics\psPredict.jpg" height="700">    <img src = "pics\prediction1.jpg" height="700"> </p><br>
 
-<p> <img src = "pics\pos predict.jpeg" height="700">    <img src = "pics\neg predict.jpeg" height="700"> </p><br>
+<p> <img src = "pics\ngPrdict.jpg" height="700">    <img src = "pics\prediction2.jpg" height="700"> </p><br>
 
-<p> <img src = "pics\tips.jpeg" height="700">    <img src = "pics\Btips.jpeg" height="700"> </p><br>
  
  
  
