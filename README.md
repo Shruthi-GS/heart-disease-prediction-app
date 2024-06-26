@@ -1,4 +1,4 @@
-(https://visitor-badge.glitch.me/badge?page_id=undiscovered-genius.undiscovered-genius/Heart-Disease-Prediction-App)](https://github.com/undiscovered-genius/Heart-Disease-Prediction-App)
+
 
 # Heart-Disease-Prediction-App
 ### Cardio Guide is an application which uses Machine Learning Model to predict the chances of Heart Disease with an accuracy of 98.53%. With this it also provide you with tips to improve your health status which directly benefits your heart.
